@@ -1,2 +1,13 @@
-# near-dev-next
-Near dev 101 clone implemented with Tailwind and Next
+## Near dev
+
+Near dev 101 clone implemented with Next js and Tailwind css
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
