@@ -2,20 +2,31 @@ import Image from 'next/image';
 
 export default function HeroSection() {
   return (
-    <section>
-      <div>
-        <h1>
-          Get <span>Near</span> Certified!
+    <section className='text-center px-[23px]'>
+      <div className='bg-hero_background h-[600px] -top-[320px] left-0 absolute w-[50%] z-10 opacity-[0.4]'></div>
+      <div className='bg-hero_background h-[600px] -top-[320px] right-0 absolute w-[40%] z-10 opacity-[0.4]'></div>
+      <div className='flex flex-col gap-5 items-center pt-156px'>
+        <h1 className='w-200px text-4xl leading-normal font-medium text-primary_dark'>
+          Get{' '}
+          <span className='bg-gradient-to-r from-[#9092fb] via-[#86b5ef] to-[#7bdde2] bg-clip-text w-fit text-transparent'>
+            NEAR
+          </span>{' '}
+          Certified!
         </h1>
-        <p>
+        <p className='text-secondary_dark leading-7 text-lg'>
           We, in NEAR Balkans, know how important it is to have regional and
           local support. Now you can become NEAR certified in a regional
           language of preference and connect with our team to support your
           further growth within the NEAR ecosystem.
         </p>
       </div>
-      <Image alt='scroll down icon' />
-      <h3>Making your NEAR learning easy.</h3>
+      <Image
+        alt='scroll down icon'
+        src='/assets/icons/scrollDown.svg'
+        width={28}
+        height={28}
+        className='block mx-auto mt-24 mb-44'
+      />
     </section>
   );
 }
