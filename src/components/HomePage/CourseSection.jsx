@@ -4,7 +4,7 @@ import React from 'react';
 function CourseSection() {
   return (
     <section className='mt-16'>
-      <div className='flex flex-col items-center text-center'>
+      <div className='flex flex-col items-center text-center lg:flex-row lg:justify-between lg:max-w-[940px] mx-auto'>
         <div>
           <Image
             width={180}
@@ -20,7 +20,7 @@ function CourseSection() {
           <p className='text-lg text-secondary_dark leading-6'>
             In three simple modules, learn:
           </p>
-          <div className='flex flex-col items-center gap-2'>
+          <div className='flex flex-col items-center gap-2 lg:flex-row'>
             <Image
               width={18}
               height={18}

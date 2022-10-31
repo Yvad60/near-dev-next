@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 function Footer() {
@@ -10,30 +9,33 @@ function Footer() {
           to follow us on our social and community channels!
         </p>
         <div className='flex flex-col gap-10'>
-          <Image alt='Near balkans logo' className='hidden' />
-          <div className='separator hidden'></div>
-          <div className='flex justify-between items-center mt-24 px-2'>
-            <picture>
-              <img src='/assets/icons/twitter.svg' alt='twitter logo' />
+          <div className='flex justify-center mt-10 items-center'>
+            <picture className='hidden lg:block'>
+              <img src='/assets/icons/nearBakans_full.svg' alt='' />
             </picture>
-            <picture>
-              <img src='/assets/icons/discord.svg' alt='discord logo' />
-            </picture>
-            <picture>
-              <img src='/assets/icons/telegram.svg' alt='telegram logo' />
-            </picture>
-            <picture>
-              <img src='/assets/icons/facebook.svg' alt='facebook logo' />
-            </picture>
-            <picture>
-              <img src='/assets/icons/linkedin.svg' alt='linkedin logo' />
-            </picture>
-            <picture>
-              <img src='/assets/icons/instagram.svg' alt='instagram logo' />
-            </picture>
-            <picture>
-              <img src='/assets/icons/medium.svg' alt='medium logo' />
-            </picture>
+            <div className='flex justify-between items-center  px-2  gap-6'>
+              <picture>
+                <img src='/assets/icons/twitter.svg' alt='twitter logo' />
+              </picture>
+              <picture>
+                <img src='/assets/icons/discord.svg' alt='discord logo' />
+              </picture>
+              <picture>
+                <img src='/assets/icons/telegram.svg' alt='telegram logo' />
+              </picture>
+              <picture>
+                <img src='/assets/icons/facebook.svg' alt='facebook logo' />
+              </picture>
+              <picture>
+                <img src='/assets/icons/linkedin.svg' alt='linkedin logo' />
+              </picture>
+              <picture>
+                <img src='/assets/icons/instagram.svg' alt='instagram logo' />
+              </picture>
+              <picture>
+                <img src='/assets/icons/medium.svg' alt='medium logo' />
+              </picture>
+            </div>
           </div>
           <div className='flex flex-col text-lg'>
             <Link href='#'>NEAR Balkans 2022</Link>

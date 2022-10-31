@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontSize: {
         '32px': '2rem',
+        '22px': '22px',
       },
       width: {
         '200px': '12.5rem',
@@ -26,7 +27,9 @@ module.exports = {
       },
       backgroundImage: {
         hero_background:
-          'radial-gradient(50% 50% at 50% 50%,#8e9af9 0,rgba(127,208,231,0) 100%);',
+          'radial-gradient(50% 50% at 50% 50%,#8e9af9 0,rgba(127,208,231,0) 100%)',
+        cta_background:
+          'radial-gradient(50% 50% at 50% 50%,#7bdde2 0,rgba(127,208,231,0) 100%)',
       },
       letterSpacing: {
         '0.02rem': '0.02rem',
