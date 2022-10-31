@@ -39,10 +39,10 @@ export default function Navbar() {
           </div>
         </nav>
         <nav className='lg:text-lg'>
-          <Link href='#' className='hidden lg:inline-block lg:mr-16'>
+          <Link href='courses' className='hidden lg:inline-block lg:mr-16'>
             Start the course
           </Link>
-          <Link href='#'>
+          <Link href='/wallet'>
             <button
               className='bg-zinc-700 text-white py-3 px-5 border-solid rounded-full leading-4 border'
               type='button'
