@@ -32,7 +32,7 @@ function OpenSection() {
         </div>
       </div>
       <div className='hidden'>
-        <Image alt='scroll down arrow' className='dis' />
+        <Image alt='scroll down arrow'/>
       </div>
     </section>
   );
