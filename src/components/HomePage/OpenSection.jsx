@@ -20,19 +20,19 @@ function OpenSection() {
           <h3 className='font-medium text-2xl leading-44px -tracking-0.02rem'>
             Open NEAR wallet
           </h3>
-          <p className='pt-1 text-secondary_dark text-base'>
+          <p className='pt-1 text-secondary_dark'>
             Opening a NEAR wallet is the first step and essential part of
             joining the NEAR community as well as starting this course.
           </p>
           <Link href='#'>
-            <button className='mt-8 rounded-full px-5 py-3 border border-solid text-primary_dark leading-4 border-primary_dark'>
+            <button className='mt-8 rounded-full px-5 py-3 border border-solid text-primary_dark leading-4 border-secondary_dark'>
               Create wallet
             </button>
           </Link>
         </div>
       </div>
       <div className='hidden'>
-        <Image alt='scroll down arrow'/>
+        <Image alt='scroll down arrow' />
       </div>
     </section>
   );
