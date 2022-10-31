@@ -5,7 +5,7 @@ function wallet() {
     <>
       <Navbar />
       <main>
-        <h1>Wallet page</h1>
+        <h1>Wallet page.</h1>
       </main>
     </>
   );
