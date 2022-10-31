@@ -15,7 +15,8 @@ module.exports = {
         secondary_dark: '#676767',
       },
       fontFamily: {
-        sans: 'Graphik,ui-sans-serif,system-ui,sans-serif;',
+        sans: 'Graphik,ui-sans-serif,system-ui,sans-serif',
+        graphik_medium: 'Graphik-medium,ui-sans-serif,system-ui,sans-serif',
       },
       margin: {
         1.5: '375rem',

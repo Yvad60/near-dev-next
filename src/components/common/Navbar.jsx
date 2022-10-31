@@ -4,8 +4,8 @@ import Link from 'next/link';
 export default function Navbar() {
   return (
     <header className='sticky top-0 py-25px bg-white z-50'>
-      <div className='flex justify-between w-[90%] mx-auto'>
-        <nav className='flex gap-1.5 items-center'>
+      <div className='flex justify-between w-[90%] mx-auto lg:w-[83%]'>
+        <nav className='flex items-center gap-1.5 lg:gap-3'>
           <div className='flex items-center gap-2'>
             <Image
               src='/assets/icons/decadeLogo_mini.svg'
@@ -14,8 +14,8 @@ export default function Navbar() {
               height={30}
               className='lg:w-[39px]'
             />
-            <p className='hidden lg:inline-block text-zinc-700 text-lg font-bold'>
-              Decade
+            <p className='text-zinc-700 text-lg font-bold hidden lg:inline-block'>
+              Dacade
             </p>
           </div>
           <div className='h-full overflow-hidden'>
@@ -40,7 +40,7 @@ export default function Navbar() {
         </nav>
         <nav className='lg:text-lg'>
           <Link href='courses' className='hidden lg:inline-block lg:mr-16'>
-            Start the course
+            Start The Course
           </Link>
           <Link href='/wallet'>
             <button
