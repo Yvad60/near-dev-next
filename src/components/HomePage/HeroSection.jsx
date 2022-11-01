@@ -25,7 +25,7 @@ export default function HeroSection() {
         src='/assets/icons/scrollDown.svg'
         width={28}
         height={28}
-        className='block mx-auto mt-24 mb-44'
+        className='lg:hidden block mx-auto my-24'
       />
     </section>
   );
